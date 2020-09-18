@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mi primera pagina</title>
     <meta name="description" content="esta es mi primer pagina web xd"> 
+ <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
-<header><h1>mi Blog</h1></header>
-<nav><ul>
+<div class="agrupar">
+    <header class="header" ><h1>mi Blog</h1></header>
+<nav class="menu" ><ul>
     <li>principal
     </li>
     <li>ayuda
@@ -17,14 +19,15 @@
     <li>contacto
     </li>
 </ul></nav>
-<section>
-    <article>
+<section class="seccion">
+    <article  >
        <hgroup > <h1>Titulo del primer articulo</h1>
         <h2>Subtitulo del primer articulo</h2></hgroup>
 
         <time datetime="12-10-18">Publicado 12/10/18 </time>
-        <p>Lorem ipsum,<small> dolor sit amet consectetur adipisicing elit. Itaque,</small> nesciunt magni impedit soluta rerum, aliquid quaerat quam placeat non <span>amet totam,</span> molestiae alias quidem a! <cite> Voluptatum quia obcaecati deserunt numquam?</cite></p>
         <img src="images/índice.png">
+        <p>Lorem ipsum,<small> dolor sit amet consectetur adipisicing elit. Itaque,</small> nesciunt magni impedit soluta rerum, aliquid quaerat quam placeat non <span>amet totam,</span> molestiae alias quidem a! <cite> Voluptatum quia obcaecati deserunt numquam?</cite></p>
+        
         <footer>
             <p>comentarios (0)</p>
         </footer>
@@ -39,16 +42,17 @@
         </footer>
        <address><a href="http://google.com">es google :V</a></address> 
     </article>
-</section>
-<aside><blockquote cite="http://faztweb.com">
+</section  >
+<aside class="columna"><blockquote cite="http://faztweb.com">
     mensaje 1
 </blockquote>
 <blockquote>mensaje 2</blockquote>
 </aside>
 
-<footer>
+<footer class="pie" >
     Derechos Reservados 2010-2018
 </footer>
+</div>
 
 </body>
 </html>
